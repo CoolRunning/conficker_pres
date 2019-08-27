@@ -1,0 +1,83 @@
+/*
+ * Removing odd borders from image,
+ * source: http://stackoverflow.com/questions/23082660/how-to-style-images-in-reveal-js
+ */
+.reveal section img {
+  margin: 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 0px solid #222;
+  box-shadow: none; }
+
+/* The bounding box for relative positioning is 960x680px */
+div.bbox {
+      margin:0 auto;
+      width:100%;
+      height:630px;
+      border:0px solid #222;
+      position: relative;
+}
+
+div.bboxflex {
+      margin:0 auto;
+      width:100%;
+      border:0px solid #222;
+      position: relative;
+}
+
+div.boxl50 {
+      margin:0 auto;
+      width:478px;
+      border:0px solid #222;
+      position: absolute;
+      left: 0;
+      top: 0;
+}
+
+div.boxr50 {
+      margin:0 auto;
+      width:478px;
+      border:0px solid #222;
+      position: absolute;
+      right: 0;
+      top: 0;
+}
+
+
+div.boxl40 {
+      margin:0 auto;
+      width:382px;
+      border:1px solid #222;
+      position: absolute;
+      left: 0;
+      top: 0;
+}
+
+div.boxr60 {
+      margin:0 auto;
+      width:574px;
+      border:0px solid #222;
+      position: absolute;
+      right: 0;
+      top: 0;
+}
+
+div.boxb100 {
+    margin:0 auto;
+    width:960px;
+    border:0px solid #222;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div.emphbox {
+    margin:3px;
+    border:3px solid #000;
+}
+
+/* Single-direction drop shadow */
+hr.shadow {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
